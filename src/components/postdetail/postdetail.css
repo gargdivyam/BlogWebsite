@@ -1,0 +1,72 @@
+.post-detail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.postdetail-img{
+    height: 330px;
+}
+.postdetial-Title{
+    margin: 0px auto;
+    font-size: xx-large;
+    font-weight: 600;
+    font-style: oblique;
+}
+.postdetial-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.postdetai-Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.postdetail-desc{
+    margin-top: 15px;
+    /* text-align: center; */
+    font-family: serif;
+    font-style: italic;
+}
+
+.author-heading, .author-name{
+    font-weight: bold;
+    margin: 2px;
+}
+.posttime-value{
+    font-weight: 300;
+}
+.MuiSvgIcon-root{
+    margin: 5px;
+}
+.inpEditTitle{
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: ghostwhite;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 17px;
+}
+.inpTextDesc{
+    outline: none;
+    background-color: ghostwhite;
+    height: 25vh;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+    border-radius: 14px;
+    margin: 10px 0;
+}
+.btnUpdatePost{
+    display: flex;
+    justify-content: center;
+    margin: 2px 0px 10px 0px;
+}
+.btnupdateblog{
+    padding: 5px 30px;
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid;
+    border-radius: 20px;
+}

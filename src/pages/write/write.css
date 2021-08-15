@@ -1,0 +1,62 @@
+.write-main{
+    margin-top: 15px;
+}
+.write-img{
+    display: flex;
+    justify-content: center;
+}
+.imgWritepost{
+    height: 200px;
+    width: 70vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.writeFormGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.lblAdd{
+    border: 1px solid black;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    color: darkgrey;
+}
+.writeInput{
+    width: 43vw;
+    border: none;
+    height: 10vh;
+    background-color: ghostwhite;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 17px;
+    outline: none;
+}
+.writeInput-Textarea{
+    background-color: ghostwhite;
+    height: 50vh;
+    width: 70vw;
+    padding: 10px;
+    font-style: italic;
+    border: none;
+    border-radius: 14px;
+    outline: none;
+}
+.writeSubmit{
+    background-color: green;
+    padding: 5px 27px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+}
+.btnWriteSubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+

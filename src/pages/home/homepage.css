@@ -1,0 +1,22 @@
+.homepage-main{
+    height: auto;
+}
+.heading{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    top: 13%;
+    position: absolute;
+    font-size: 50px;
+}
+img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.postsDisplay{
+    display: flex;
+    flex-wrap: wrap;
+}

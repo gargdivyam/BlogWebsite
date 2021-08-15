@@ -1,0 +1,38 @@
+.contact-main{
+    height: 100vh;
+    background-image: url("https://preview.redd.it/7jl34yj1ale51.jpg?width=960&crop=smart&auto=webp&s=fed5631b736b016f759a2cd04113d186f1dc56da");
+}
+.formContact{
+    padding-top: 80px;
+}
+.col-right{
+    background-image: url("https://www.teahub.io/photos/full/190-1903367_dark-blue-minimalist-background.png");
+    object-fit: cover;
+}
+.formReview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+.formFeilds{
+    display: flex;
+    flex-direction: column;
+}
+.inpContact{
+    margin: 15px;
+    width: 20vw;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+/* .submitBtn{
+    display: flex;
+    justify-content: center;
+} */
+.btnSub{
+    padding: 5px 30px;
+    background-color: orange;
+    color: white;
+    border: 1px solid;
+    border-radius: 25px;
+}

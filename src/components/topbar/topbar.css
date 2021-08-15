@@ -1,0 +1,68 @@
+.topbar-main{
+    background-color: ghostwhite;
+    height: 10vh;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px; */
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0rem !important;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+ul a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 500;
+}
+ul a:hover{
+    color: darkgrey;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+}
+.btnlogout{
+    padding: 3px 25px;
+    background-color: lightgreen;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.username{
+    margin: 0px 15px;
+    font-weight: 600;
+}
+.loginAnch{
+    background-color: lightgreen;
+    padding: 0 15px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: black;
+    margin: 0 10px;
+}
+.registerAnch{
+    background-color: lightcoral;
+    padding: 0 15px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: black;
+}
+.username{
+    background-color: dimgray;
+    color: white;
+    border: 1px solid;
+    border-radius: 18px;
+    padding: 0px 10px;
+}
